@@ -1,0 +1,49 @@
+body{
+    background-color: white;
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+
+}
+
+header{
+    height: 67px;
+}
+
+nav{
+    height: 47px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 8px;
+}
+
+
+
+.links{
+    display: inline;
+}
+
+.avatar{
+    height: 47px;
+}
+
+.container_image img{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.avatar{
+    border-radius: 50%;
+    
+}
+
+.links a{
+    text-decoration: none;
+}
+
+.links a:hover{
+    text-decoration: underline;
+    
+}
